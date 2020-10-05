@@ -36,8 +36,6 @@ export class HomeComponent implements OnInit {
     this.luz='OFF';
     this.pt.actualizarLuz(this.luz);
     console.log(this.luz);
-
-
   }
 
 }
